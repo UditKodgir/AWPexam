@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" 
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+        crossorigin="anonymous">
+
+    <script link="2.js"></script>
+
+</head>
+
+<body>
+
+    <div class="container-fluid" 
+        style="background-color: pink;
+        width: 50%;
+        height: 50%;
+        border: solid black;
+        border-radius: 10px;
+        margin-top: 10px;
+        align-items: center;
+        justify-content: center;
+        display: flex;
+        text-align: center;">
+        
+        <form>
+
+            <div style="margin-top: 20px;
+                        font-weight: bold;
+                        font-size: xx-large;
+                        font-family: sans-serif;">
+            FORM</div>
+
+            <div style="margin-top: 20px;">
+                <label>
+                    <h4>User Name :-</h4> 
+                </label>
+
+                <input id="IN1" type="text" placeholder="Type Here">
+            </div>
+            
+            <div style="margin-top: 10px;">
+                <label>
+                <h4>Password :-</h4>
+                </label>
+
+                <input id="IN2" type="password" placeholder="Type Here">
+            </div>
+
+            <div style="margin-top: 10px;
+                        margin-bottom: 10px;
+                        align-items: center;
+                        justify-content: center;">
+                
+                <button id="btn1" class="btn btn-outline-primary" 
+                       onclick="submit1"
+                       style="color: black !important;
+                                font-size: 20px;
+                                font-weight: bold;">Submit</button>
+                
+                <button id="btn2" class="btn btn-outline-primary"
+                        onclick="clear1"
+                        style="color: black !important;
+                                font-size: 20px;
+                                font-weight: bold;">Clear</button>
+            </div>
+
+            <div id="COMMENT">
+                Sample comment
+            </div>
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
